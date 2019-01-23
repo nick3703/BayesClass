@@ -1,0 +1,26 @@
+---
+title: "HW1"
+author: "Watts/Clark"
+date: "January 14, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Problem 1
+
+I have three dice.  One is a fair die, one is a slightly unfair die that has a probability of 1/5 of landing on a six, and the other is a completely unfair die that has a probability of 1/3 of landing on a six.  I randomly hand you one of the die and you do not roll a six.
+
+What is your parameter space?  In other words, what values can $p$ take on if $p$ is the probability you roll a six.
+
+What is the posterior distribution of $p$ assuming equal probability for all values in the parameter space of $p$?
+
+If you roll the die again and get a six what is the posterior distrubtion of $p$?
+
+\vspace{.5in}
+
+When a coin is spun on its edge, instead of being throw in the air, the proportion of heads is rarely close to 1/3, but is rather 1/3 or 2/3 because of irregularities in the edge that cause th game to favor one side or the other.  Draw a graph of what your prior beliefs of the proportion of heads would be.  Think about what a model for your prior beliefs could be.
+
+What about if your don't want to use a discrete parameter space, i.e. you want to define a prior distribution for any $p$ value.  Would your prior you chose above be ok to use?  If not, how could you change your graph to incorporate any prior?
